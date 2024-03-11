@@ -1,0 +1,48 @@
+.banner {
+    background-color: #F9F9F9;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 85px;
+
+     .banner__txt {
+        font-family: Gilroy;
+        display: flex;
+        flex-direction: column;
+        width: 35%;
+
+        .banner_h1 {
+            font-weight: 700;
+            width: 557px;
+            height: 198px;
+            font-size: 60.726px;
+        }
+
+         .banner_p {
+            color: #9E9DA2;
+            width: 550px;
+            height: 120px;
+            font-size: 24px;
+            padding-bottom: 65px;
+        }
+    }
+
+}
+
+.banner_button {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 30px;           
+}
+
+.banner_button > img {
+    width: 41px;
+    height: 41px;
+}
+
+.banner_button > button {
+        @extend %button_style
+}
+
+

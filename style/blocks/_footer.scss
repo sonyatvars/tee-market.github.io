@@ -1,0 +1,48 @@
+.footer {
+    .container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly; 
+        border-bottom: solid 1px $main-color;  
+        padding-bottom: 38px;   
+    }
+
+    background-color: #ffffff;
+    
+
+    &_spacing {
+        padding: 71px 0px 243px 0px;
+    }
+    
+    &_contacts {
+        display: flex;
+        flex-direction: column;
+        h1 {
+            color: #272042;
+            font-family: Gilroy;
+            font-size: 22px;
+            font-weight: 500;
+            margin-bottom: 25px;
+        }
+        p {
+            color: #8B8BA5;
+            font-family: Gilroy;
+            font-size: 18px;
+            font-weight: 400;
+            margin-top: 0;
+            margin-bottom: 15px;
+        }
+    }
+
+    button {
+        @extend %button_style
+    }
+}
+
+.footnote {
+    color: $main-color;
+    text-align: center;
+    font-family: Gilroy;
+    font-size: 16px;
+}

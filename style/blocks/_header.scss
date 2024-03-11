@@ -1,0 +1,39 @@
+.header {
+    .container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    background-color: #ffffff;
+    
+    &_spacing {
+        padding: 85px 0px 38px 0px;
+    }
+
+    &__navigation {
+        display: flex;
+        justify-content: space-around;
+        gap: 46px;
+    }
+}
+
+.navigation_txt {
+    color: #000000;
+    font-family: Gilroy;
+    font-size: 17.161px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.navigation_button {
+    color: #FFF;
+    font-family: Gilroy;
+    font-size: 22px;
+    font-style: normal;
+    line-height: normal;
+    border-radius: 5.952px;
+    background: $main-color;
+    border: 0px
+}

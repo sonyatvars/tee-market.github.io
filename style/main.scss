@@ -1,0 +1,63 @@
+@font-face {
+    font-family: 'Gilroy';
+    src: url('style/fonts/Gilroy-Regular.woff2') format('woff2'),
+    url('style/fonts/Gilroy-Regular.woff') format('woff'),
+    url('style/fonts/Gilroy-Regular.ttf') format('truetype'),
+    url('style/fonts/Gilroy-Regular.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+    }
+@font-face {
+    font-family: 'Gilroy';
+    src: url('style/fonts/Gilroy-Bold.woff2') format('woff2'),
+    url('style/fonts/Gilroy-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    }
+@font-face {
+    font-family: 'Gilroy';
+    src: url('style/fonts/Gilroy-Extrabold.woff2') format('woff2'),
+    url('style/fonts/Gilroy-Extrabold.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+    }
+
+$main-color: #75BF7A;    
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+body{
+    background-color: #F9F9F9;
+}
+
+%button_style {
+    display: flex;
+    flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        border-radius: 5px;
+        border: 0px;
+        background-color: #000;
+        color: #FFF;
+        font-family: Gilroy;
+        font-size: 25px;
+        width: 260px;
+        height: 67px;
+        font-weight: 800;    
+}
+
+@import "./blocks/header";
+
+@import "./blocks/banner";
+
+@import "./blocks/mobile-phone-form";
+
+@import "./blocks/how-works";
+
+@import "./blocks/benefits";
+
+@import "./blocks/footer";

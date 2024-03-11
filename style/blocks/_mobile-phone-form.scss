@@ -1,0 +1,53 @@
+.mobile-phone-form {
+    font-family: Gilroy;
+    background-color: $main-color;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    height: 145px;
+    padding: 15px 55px 15px 55px;
+    width: 1167px;
+    margin-bottom: 125px;
+
+     p {
+        color: #FFF;
+    font-family: Gilroy;
+    font-size: 24.601px;
+    font-style: normal;
+    font-weight: 500;
+    width: 22%;
+    height: 67px;
+    margin: 0 122px 0 0;
+    }
+
+     input {
+        width:43%;
+        height: 67px;
+        border: 0px;
+        border-radius: 4.393px;
+        background: #FFF;
+        margin-right: 11px;
+    }
+
+     input::placeholder {
+        font-family: Gilroy;
+        font-weight: 400;
+        margin-left: 11px;
+        color: #DADADA;
+        font-size: 20px;
+    }
+
+     button {
+        border-radius: 5px;
+        background: #000;
+        width: 25%;
+        height: 67px;
+
+        & h1 {
+            color: #ffffff;
+        }
+    }
+}
+

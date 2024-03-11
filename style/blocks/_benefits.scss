@@ -1,0 +1,75 @@
+.benefits {
+    &_title {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap:10px;
+        h2 {
+            color: $main-color;
+            font-family: Gilroy;
+            font-size: 47px;
+            font-weight: 800;
+        }
+        h1 {
+            color: #000;
+            font-family: Gilroy;
+            font-size: 47px;
+            font-weight: 800;
+        }
+    }
+
+    &_card {
+        background-color: #fff;
+        display: flex;
+        flex-direction: row;
+        height: 304px;
+        border-radius: 10px;
+        width: 82%;
+        column-gap:210px;
+        margin-bottom: 56px;
+        padding: 40px ;
+        
+        &_text {
+            padding: 0px 0px 17px 38px;
+            display: flex;
+            flex-direction: column;
+
+            .first_line {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                gap: 39px;
+
+                h1 {
+                    color: $main-color;
+                    font-family: Gilroy;
+                    font-size: 88px;
+                    font-weight: 500;
+                    margin: 0px;
+                }
+
+                h2 {
+                    color: #000;
+                    font-family: Gilroy;
+                    font-size: 33.943px;
+                    font-weight: 500;
+                    width: 218px;
+                }
+            }
+
+            p {
+                color: #9E9DA2;
+                font-family: Gilroy;
+                font-size: 22px;
+                font-weight: 500;
+                width: 385px;
+                height: 47px;
+            }
+        }
+    }
+    &_card:nth-of-type(3) {
+        margin-left: 12%;
+    }
+
+}
