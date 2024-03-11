@@ -6,13 +6,13 @@
 }
 @font-face {
   font-family: "Gilroy";
-  src: url("fonts/Gilroy-Bold.woff2") format("woff2"), url("fonts/Gilroy-Bold.woff") format("woff");
+  src: url("fonts/Gilroy-Bold.woff2") format("woff2"), url("fonts/Gilroy-Bold.woff") format("woff"),url('fonts/Gilroy-Bold.ttf') format('ttf'), url('fonts/Gilroy-Bold.eof') format('eof');
   font-weight: bold;
   font-style: normal;
 }
 @font-face {
   font-family: "Gilroy";
-  src: url("fonts/Gilroy-Extrabold.woff2") format("woff2"), url("fonts/Gilroy-Extrabold.woff") format("woff");
+  src: url("fonts/Gilroy-Extrabold.woff2") format("woff2"), url("fonts/Gilroy-Extrabold.woff") format("woff"), url('fonts/Gilroy-Extrabold.ttf') format('ttf'), url('fonts/Gilroy-Extrabold.eof') format('eof');
   font-weight: 800;
   font-style: normal;
 }
