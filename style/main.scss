@@ -10,14 +10,18 @@
 @font-face {
     font-family: 'Gilroy';
     src: url('style/fonts/Gilroy-Bold.woff2') format('woff2'),
-    url('style/fonts/Gilroy-Bold.woff') format('woff');
+    url('style/fonts/Gilroy-Bold.woff') format('woff'),
+    url('style/fonts/Gilroy-Bold.ttf') format('ttf'),
+    url('style/fonts/Gilroy-Bold.eof') format('eof');
     font-weight: bold;
     font-style: normal;
     }
 @font-face {
     font-family: 'Gilroy';
     src: url('style/fonts/Gilroy-Extrabold.woff2') format('woff2'),
-    url('style/fonts/Gilroy-Extrabold.woff') format('woff');
+    url('style/fonts/Gilroy-Extrabold.woff') format('woff'),
+    url('style/fonts/Gilroy-Extrabold.ttf') format('ttf'),
+    url('style/fonts/Gilroy-Extrabold.eof') format('eof');
     font-weight: 800;
     font-style: normal;
     }
